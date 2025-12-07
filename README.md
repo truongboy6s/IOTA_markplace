@@ -92,7 +92,14 @@ marketplace/
 
 ## 🔧 Smart Contract
 
-The marketplace is powered by a Move smart contract that handles:
+The marketplace is powered by a Move smart contract deployed on IOTA networks:
+
+### Contract Addresses
+- **Devnet**: `0xc3694638e3c0bb2ae0660de6aa10b2e1cd17f1fb089119820ef1254051dd7525`
+- **Testnet**: `0x840755cd1a80a6d1c54e6c51b3ab46d1ddea13f09dbaa4c0e0b9d101778e7b9c`
+- **Mainnet**: *To be deployed*
+
+The smart contract handles:
 
 - **Item Creation**: Users can create new items for sale
 - **Purchase Transactions**: Secure buying and selling of items
@@ -118,6 +125,9 @@ The marketplace is powered by a Move smart contract that handles:
 
 2. **Configure IOTA Network**
    - Update `lib/config.ts` with appropriate network settings
+   - Current contract addresses:
+     - Devnet: `0xc3694638e3c0bb2ae0660de6aa10b2e1cd17f1fb089119820ef1254051dd7525`
+     - Testnet: `0x840755cd1a80a6d1c54e6c51b3ab46d1ddea13f09dbaa4c0e0b9d101778e7b9c`
    - Ensure wallet is configured for the correct network
 
 3. **Deploy Smart Contract**
@@ -163,7 +173,12 @@ The dApp integrates with:
    npm run iota-deploy -- --network devnet
    ```
 
-2. Update contract addresses in configuration
+2. Update contract addresses in configuration:
+   ```typescript
+   // lib/config.ts
+   export const DEVNET_PACKAGE_ID = "0xc3694638e3c0bb2ae0660de6aa10b2e1cd17f1fb089119820ef1254051dd7525"
+   export const TESTNET_PACKAGE_ID = "0x840755cd1a80a6d1c54e6c51b3ab46d1ddea13f09dbaa4c0e0b9d101778e7b9c"
+   ```
 
 3. Start development server:
    ```bash
