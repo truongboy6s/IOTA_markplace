@@ -4,10 +4,9 @@ Complete guide for deploying and customizing your IOTA dApp.
 
 ## 📍 Contract Address
 
-**Network**: Devnet
-**Package ID**: `0xc3694638e3c0bb2ae0660de6aa10b2e1cd17f1fb089119820ef1254051dd7525`
-**Explorer**: [View on Explorer](https://explorer.devnet.iota.org/object/0xc3694638e3c0bb2ae0660de6aa10b2e1cd17f1fb089119820ef1254051dd7525)
-
+**Network**: Testnet
+**Package ID**: `0x840755cd1a80a6d1c54e6c51b3ab46d1ddea13f09dbaa4c0e0b9d101778e7b9c`
+**Explorer**: [View on Explorer](https://explorer.testnet.iota.org/object/0x840755cd1a80a6d1c54e6c51b3ab46d1ddea13f09dbaa4c0e0b9d101778e7b9c)
 ## 🚀 Getting Started
 
 1. **Install dependencies:**
