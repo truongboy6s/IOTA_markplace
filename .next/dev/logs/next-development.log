@@ -1,0 +1,53 @@
+[00:00:01.846] Server  LOG      ✓ Ready in 1252ms
+[00:00:06.660] Server  LOG      ○ Compiling / ...
+[00:00:17.065] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:18.728] Browser WARN    Dialog is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[00:00:21.821] Browser LOG     Creating new marketplace...
+[00:00:27.568] Browser LOG     Marketplace creation transaction: BHXyR8u3G96q5wsmuQ1M97Rg8ioM36HfdmqqZQczC118
+[00:00:27.866] Browser LOG     Created marketplace object ID: 0x6377d85baf139116bb55aba96ae2402757c368c309f79a36f3dc8354f132241a
+[00:00:27.867] Browser LOG     Created marketplace with ID: 0x6377d85baf139116bb55aba96ae2402757c368c309f79a36f3dc8354f132241a
+[00:00:27.867] Browser LOG     Loading marketplace data for: 0x6377d85baf139116bb55aba96ae2402757c368c309f79a36f3dc8354f132241a
+[00:00:40.763] Browser LOG     Add item transaction: G61CeBjMFvrVhFmyWvYZi6xZdW23wDyFQKL8h6phnjza
+[00:00:43.639] Browser LOG     ItemList: handleBuyClick called with index=0, price=0.001
+[00:00:43.639] Browser LOG     Attempting to buy item: {"buyerAddress":"0x4d9c1afdbd073b4b80cebdb8909ea85530506f6b1b9fee8c090259c938212b86","itemIndex":0,"itemName":"iPhone 14 Pro","itemSeller":"0x4d9c1afdbd073b4b80cebdb8909ea85530506f6b1b9fee8c090259c938212b86","marketplaceId":"0x6377d85baf139116bb55aba96ae2402757c368c309f79a36f3dc8354f132241a","price":0.001}
+[00:00:43.639] Browser LOG     Real contract purchase: item index 0 in contract
+[00:00:43.639] Browser LOG     MarketplaceApp: Calling buyItem with price=0.001 (type: number)
+[00:00:43.639] Browser LOG     Buying item: index=0, payment=0.001 IOTA (type: number), marketplaceId=0x6377d85baf139116bb55aba96ae2402757c368c309f79a36f3dc8354f132241a
+[00:00:43.639] Browser LOG     Payment conversion with BigInt precision:
+[00:00:43.639] Browser LOG       Original: 0.001 IOTA
+[00:00:43.639] Browser LOG       String representation: "0.001"
+[00:00:43.639] Browser LOG       Integer part: "0"
+[00:00:43.639] Browser LOG       Decimal part: "001000000" (padded to 9 digits)
+[00:00:43.639] Browser LOG       Combined string: "0001000000"
+[00:00:43.639] Browser LOG       Final mist value: 1000000
+[00:00:43.639] Browser LOG       Back to IOTA: 0.001
+[00:00:43.639] Browser LOG       Expected exactly: MATCH
+[00:00:43.639] Browser LOG     Creating transaction for wallet payment
+[00:00:43.639] Browser LOG     WARNING: Using gas coin for payment. Gas budget: 100000000 mist, Payment: 1000000 mist
+[00:00:43.640] Browser LOG     tx.pure.u64() value: {"$kind":"Input","Input":0,"type":"pure"}
+[00:00:43.640] Browser LOG     Raw paymentInMist value: 1000000
+[00:00:43.640] Browser LOG     PaymentInMist as hex: 0xf4240
+[00:00:43.640] Browser LOG     Transaction prepared with proper gas budget, executing...
+[00:00:54.001] Browser LOG     Buy item transaction successful: EBBVdRzoZ8DqbUDHaDAuEmgJuVh8Gvw2XUja2R3yD53F
+[00:01:20.422] Browser LOG     Add item transaction: B3sD9EepTaruwjtS68YZnTCvxNmoQ28zo5sACSMQpa17
+[00:01:25.987] Browser LOG     ItemList: handleBuyClick called with index=0, price=1
+[00:01:25.987] Browser LOG     Attempting to buy item: {"buyerAddress":"0x4d9c1afdbd073b4b80cebdb8909ea85530506f6b1b9fee8c090259c938212b86","itemIndex":0,"itemName":"iPhone 13 Pro","itemSeller":"0x4d9c1afdbd073b4b80cebdb8909ea85530506f6b1b9fee8c090259c938212b86","marketplaceId":"0x6377d85baf139116bb55aba96ae2402757c368c309f79a36f3dc8354f132241a","price":1}
+[00:01:25.987] Browser LOG     Real contract purchase: item index 1 in contract
+[00:01:25.987] Browser LOG     MarketplaceApp: Calling buyItem with price=1 (type: number)
+[00:01:25.987] Browser LOG     Buying item: index=1, payment=1 IOTA (type: number), marketplaceId=0x6377d85baf139116bb55aba96ae2402757c368c309f79a36f3dc8354f132241a
+[00:01:25.987] Browser LOG     Payment conversion with BigInt precision:
+[00:01:25.987] Browser LOG       Original: 1 IOTA
+[00:01:25.987] Browser LOG       String representation: "1"
+[00:01:25.987] Browser LOG       Integer part: "1"
+[00:01:25.987] Browser LOG       Decimal part: "000000000" (padded to 9 digits)
+[00:01:25.987] Browser LOG       Combined string: "1000000000"
+[00:01:25.987] Browser LOG       Final mist value: 1000000000
+[00:01:25.987] Browser LOG       Back to IOTA: 1
+[00:01:25.987] Browser LOG       Expected exactly: MATCH
+[00:01:25.987] Browser LOG     Creating transaction for wallet payment
+[00:01:25.987] Browser LOG     WARNING: Using gas coin for payment. Gas budget: 100000000 mist, Payment: 1000000000 mist
+[00:01:25.987] Browser LOG     tx.pure.u64() value: {"$kind":"Input","Input":0,"type":"pure"}
+[00:01:25.987] Browser LOG     Raw paymentInMist value: 1000000000
+[00:01:25.987] Browser LOG     PaymentInMist as hex: 0x3b9aca00
+[00:01:25.987] Browser LOG     Transaction prepared with proper gas budget, executing...
+[00:01:35.565] Browser LOG     Buy item transaction successful: 7ncWMHz9ieB1GkW66qD87g8hepGvCTht4q77dGXxn33R
